@@ -6,6 +6,11 @@ import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
+// template_jdw4ujv
+//service_a6dqmcc
+//0TJiHxeFyhoiYrJzA
+
+
 const Contact = () => {
   const formRef = useRef()
   const [form, setForm] = useState({
@@ -21,7 +26,32 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    setLoading(true)
+    emailjs.send(
+      'service_a6dqmcc',
+      'template_jdw4ujv',
+      {
+        from_name: form.name,
+        to_name: 'Rohit Jangra',
+        from_email: form.email,
+        to_email: 'rohitjangra03@gmail.com',
+        message: form.message,
+      },
+      '0TJiHxeFyhoiYrJzA'
+    ).then(() => {
+      setLoading(false)
+      alert('Thank you for contacting me! I will get back to you as soon as possible.')
+      setForm({
+        name: '',
+        email: '',
+        message: '',  
+      })
+    }).catch((error) => {
+      setLoading(false)
+      alert('Something went wrong.')
+    })
   }
+  
   
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
