@@ -19,20 +19,15 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import brane_enterprises_logo from "./company/brane_enterprises_logo.png";
 import neuralhive_logo from "./company/neuralhive_logo.png";
 import linkedin from "./LinkedIn_logo_initials.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import CloudComputing from "./CloudComputing.png";
+import CMProject from "./CMProject.png";
+import CgasProject from "./CgasProject.png";
 
 export {
   logo,
@@ -55,15 +50,10 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   brane_enterprises_logo,
   neuralhive_logo,
   linkedin,
+  CloudComputing,
+  CMProject,  
+  CgasProject,
 };

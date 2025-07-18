@@ -15,16 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   brane_enterprises_logo,
   neuralhive_logo,
+  CloudComputing,
+  CMProject,
+  CgasProject,
 } from "../assets";
 
 export const navLinks = [
@@ -158,67 +153,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GOGO Anime Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A scalable anime streaming platform that delivers content through integrated APIs with containerized deployment architecture. Features a responsive React-based frontend optimized for cross-device compatibility and utilizes orchestrated microservices for reliable, high-availability streaming experiences.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "kubernetes",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: CloudComputing,
+    source_code_link: "https://github.com/rohitjangra0309/CloudComputing_Project",
   },
   {
-    name: "Job IT",
+    name: "Vaccine Booking System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A secure, full-stack vaccine appointment booking system featuring JWT-based authentication and role-based access control. Built with RESTful API architecture and centralized state management to provide seamless appointment scheduling, user management, and administrative controls for healthcare providers and patients.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: CMProject,
+    source_code_link: "https://github.com/rohitjangra0309/CM_Project",
   },
   {
-    name: "Trip Guide",
+    name: "Recipe Nutrition Analyzer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Django web application that takes recipe URLs from cooking websites, scrapes the ingredients list, and provides comprehensive nutritional analysis for each ingredient using the Edamam API. Users simply paste a recipe URL and instantly get detailed nutritional breakdowns including calories, vitamins, minerals, and macronutrients.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "css(bootstrap)",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: CgasProject,
+    source_code_link: "https://github.com/rohitjangra0309/CGAS_Project",
   },
 ];
 
