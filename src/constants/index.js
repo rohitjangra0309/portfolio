@@ -140,28 +140,20 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Rohit joined as a fresher but quickly became invaluable to our Dev Tool team. He led frontend development for our advanced testing systems including mutation testing, contract testing, and predictive analysis. His MERN stack expertise and leadership qualities were exceptional, consistently delivering complex solutions with remarkable efficiency.",
+    name: "Vijay Vyawhare",
+    designation: "SDET 3",
+    company: "Games 24x7",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQFvmvxv_szcjA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1638785264204?e=1755734400&v=beta&t=oUcbcDU-aJjbaF9yhdxJ3KlaNpCIgzte-rQDsCcJYHY",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "Rohit was pivotal to our team at Brane, contributing across the entire stack from mutation testing to Node.js backend development. He stepped up to lead frontend development, mentored two interns, and significantly boosted our team's velocity and product quality. His sense of ownership and ability to quickly master new technologies made him invaluable.",
+    name: "Sahil Sarwar",
+    designation: "Software Engineer",
+    company: "Confluent",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQH0FkovKOSKEw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697997649028?e=1755734400&v=beta&t=chAzGmenYyM2RCY_prIOk741SZHNXEl_asMNzymG8Gs",
+  }
 ];
 
 const projects = [
