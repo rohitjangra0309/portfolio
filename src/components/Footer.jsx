@@ -10,17 +10,17 @@ const Footer = () => {
     {
       name: 'GitHub',
       icon: github,
-      url: 'https://github.com/your-username', // Replace with your GitHub URL
+      url: 'https://github.com/rohitjangra0309?tab=repositories', // Replace with your GitHub URL
     },
     {
       name: 'LinkedIn',
       icon: linkedin,
-      url: 'https://www.linkedin.com/in/rohit-kumar-b70000200/', // Replace with your LinkedIn URL
+      url: 'https://www.linkedin.com/in/rohit-jangra-72453418b/', // Replace with your LinkedIn URL
     },
     {
       name: 'Resume',
       icon: null, // We'll use a text-based link
-      url: 'https://drive.google.com/file/d/your-resume-id/view', // Replace with your Google Drive resume link
+      url: 'https://drive.google.com/file/d/1pek1UsiaSx5hrvtESyvnFqPjUmuQfdD1/view?usp=sharing', // Replace with your Google Drive resume link
     },
   ]
 
