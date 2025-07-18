@@ -1,8 +1,8 @@
 import React from 'react'
-import  Tilt  from 'react-tilt'
+import Tilt from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { services } from '../constants'
+import { services, overview } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
@@ -34,7 +34,7 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          I'm a software developer with a passion for building web applications and 3D visuals.
+          {overview}
         </motion.p>
         <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index) => (

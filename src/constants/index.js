@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  brane_enterprises_logo,
+  neuralhive_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -42,21 +44,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Backend Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Engineer",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -116,57 +114,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Engineer",
+    company_name: "Neuralhive Technologies Pvt. Ltd.",
+    icon: neuralhive_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Oct 2024 - Jun 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built responsive features for KEA and Datahub using React.js, Redux, and SCSS.",
+      "Replaced WebSocket updates with polling APIs for smoother real-time UI.",
+      "Redesigned the KEA landing page and created onboarding/training modules.",
+      "Delivered a standalone demo app with S3 integration for offline usage.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Engineer",
+    company_name: "Brane Enterprises Pvt. Ltd.",
+    icon: brane_enterprises_logo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2023 - Sept 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a QA platform with React, Material-UI, and interactive DataGrids.",
+      "Boosted UI performance with Vite, custom hooks, and Context API.",
+      "Secured access with Azure MSAL and implemented role-based control.",
+      "Built complex dashboards and integrated REST APIs for test triaging.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -262,4 +234,6 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const overview = "I'm a Frontend Engineer with 2 years of experience building performant, scalable, and user-friendly web applications. I specialize in React.js, Redux, and modern UI libraries like Bootstrap and Material-UI. From redesigning complex interfaces to optimizing real-time performance, I turn design mockups into responsive, production-ready code. I've worked on SaaS platforms in healthcare and QA automation, collaborating across teams to ship impactful features with clean architecture and efficient APIs.";
+
+export { services, technologies, experiences, testimonials, projects, overview };
