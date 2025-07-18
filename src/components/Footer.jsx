@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { github } from '../assets'
+import { github, linkedin } from '../assets'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -14,8 +14,8 @@ const Footer = () => {
     },
     {
       name: 'LinkedIn',
-      icon: null, // We'll use a text-based link since no icon is available
-      url: 'https://linkedin.com/in/your-username', // Replace with your LinkedIn URL
+      icon: linkedin,
+      url: 'https://www.linkedin.com/in/rohit-kumar-b70000200/', // Replace with your LinkedIn URL
     },
     {
       name: 'Resume',
