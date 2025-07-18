@@ -26,8 +26,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import brane_enterprises_logo from "./company/brane_enterprises_logo.jpg";
-import neuralhive_logo from "./company/neuralhive_logo.jpg";
+import brane_enterprises_logo from "./company/brane_enterprises_logo.png";
+import neuralhive_logo from "./company/neuralhive_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";

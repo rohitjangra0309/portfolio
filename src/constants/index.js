@@ -130,7 +130,7 @@ const experiences = [
     title: "Full Stack Engineer",
     company_name: "Brane Enterprises Pvt. Ltd.",
     icon: brane_enterprises_logo,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "May 2023 - Sept 2024",
     points: [
       "Developed a QA platform with React, Material-UI, and interactive DataGrids.",
