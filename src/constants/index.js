@@ -234,6 +234,6 @@ const projects = [
   },
 ];
 
-const overview = "I'm a Frontend Engineer with 2 years of experience building performant, scalable, and user-friendly web applications. I specialize in React.js, Redux, and modern UI libraries like Bootstrap and Material-UI. From redesigning complex interfaces to optimizing real-time performance, I turn design mockups into responsive, production-ready code. I've worked on SaaS platforms in healthcare and QA automation, collaborating across teams to ship impactful features with clean architecture and efficient APIs.";
+const overview = "I'm a Frontend Engineer with 2 years of experience building performant, scalable, and user-friendly web applications. A Computer Science graduate from IIIT Delhi, I specialize in React.js, Redux, and modern UI libraries like Bootstrap and Material-UI. From redesigning complex interfaces to optimizing real-time performance, I turn design mockups into responsive, production-ready code. I've worked on SaaS platforms in healthcare and QA automation, collaborating across teams to ship impactful features with clean architecture and efficient APIs.";
 
 export { services, technologies, experiences, testimonials, projects, overview };
