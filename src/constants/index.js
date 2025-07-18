@@ -148,7 +148,15 @@ const testimonials = [
     designation: "Software Engineer",
     company: "Confluent",
     image: "https://media.licdn.com/dms/image/v2/D5603AQH0FkovKOSKEw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697997649028?e=1755734400&v=beta&t=chAzGmenYyM2RCY_prIOk741SZHNXEl_asMNzymG8Gs",
-  }
+  },
+  {
+    testimonial:
+      "I had the pleasure of working with Rohit on several high-impact initiatives, and he consistently stood out as a reliable, technically sharp, and thoughtful engineer. He quickly became the go-to person for frontend challenges, especially around performance optimization and scalable React architecture. His leadership and proactive mindset elevated our team's quality and velocity.",
+    name: "Aman Kumar Singh",
+    designation: "SDE",
+    company: "STAN",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQEbAW8ZoTThdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686047664615?e=1755734400&v=beta&t=vxt8SN5M70CboRShTuMQz2ZoWA0kZhZCvJGiLOYeUag",
+  },
 ];
 
 const projects = [
