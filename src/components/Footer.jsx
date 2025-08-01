@@ -20,7 +20,7 @@ const Footer = () => {
     {
       name: 'Resume',
       icon: null, 
-      url: 'https://drive.google.com/file/d/1pek1UsiaSx5hrvtESyvnFqPjUmuQfdD1/view?usp=sharing', 
+      url: 'https://drive.google.com/file/d/1GY2uuWWkQL8ajrIv5GNXd3et6PsaPt73/view?usp=sharing', 
     },
   ]
 
