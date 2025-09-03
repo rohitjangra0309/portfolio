@@ -26,7 +26,7 @@ const Footer = () => {
 
   return (
     <motion.footer 
-      className={`${styles.paddingX} py-8 bg-black-gradient border-t border-[#915eff]/20`}
+      className={`${styles.paddingX} py-8 bg-black-gradient border-t border-[#915eff]/20 pb-1`}
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
