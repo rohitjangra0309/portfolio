@@ -20,6 +20,9 @@ import {
   CloudComputing,
   CMProject,
   CgasProject,
+  aman,
+  sahil,
+  vijay,
 } from "../assets";
 
 export const navLinks = [
@@ -139,7 +142,7 @@ const testimonials = [
     name: "Vijay Vyawhare",
     designation: "SDET 3",
     company: "Games 24x7",
-    image: "https://media.licdn.com/dms/image/v2/C5603AQFvmvxv_szcjA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1638785264204?e=1755734400&v=beta&t=oUcbcDU-aJjbaF9yhdxJ3KlaNpCIgzte-rQDsCcJYHY",
+    image: vijay,
   },
   {
     testimonial:
@@ -147,7 +150,7 @@ const testimonials = [
     name: "Sahil Sarwar",
     designation: "Software Engineer",
     company: "Confluent",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQH0FkovKOSKEw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697997649028?e=1755734400&v=beta&t=chAzGmenYyM2RCY_prIOk741SZHNXEl_asMNzymG8Gs",
+    image: sahil,
   },
   {
     testimonial:
@@ -155,7 +158,7 @@ const testimonials = [
     name: "Aman Kumar Singh",
     designation: "SDE",
     company: "STAN",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQEbAW8ZoTThdw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686047664615?e=1755734400&v=beta&t=vxt8SN5M70CboRShTuMQz2ZoWA0kZhZCvJGiLOYeUag",
+    image: aman,
   },
 ];
 

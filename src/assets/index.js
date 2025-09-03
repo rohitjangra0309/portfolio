@@ -29,6 +29,10 @@ import CloudComputing from "./CloudComputing.png";
 import CMProject from "./CMProject.png";
 import CgasProject from "./CgasProject.png";
 
+import aman from "./testimonials/aman.jpeg";
+import sahil from "./testimonials/sahil.jpeg";
+import vijay from "./testimonials/vijay.png";
+
 export {
   logo,
   backend,
@@ -55,5 +59,8 @@ export {
   linkedin,
   CloudComputing,
   CMProject,  
-  CgasProject,
+  CgasProject,  
+  aman,
+  sahil,
+  vijay,
 };
