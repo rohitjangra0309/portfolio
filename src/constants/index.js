@@ -17,6 +17,7 @@ import {
   docker,
   brane_enterprises_logo,
   neuralhive_logo,
+  neortus_consulting_logo,
   CloudComputing,
   CMProject,
   CgasProject,
@@ -107,6 +108,19 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Frontend Engineer",
+    company_name: "Neortus",
+    icon: neortus_consulting_logo,
+    iconBg: "#E6DEDD",
+    date: "Oct 2025 - Present",
+    points: [
+      "Owned PDP and PLP for 11 coffee and wine storefronts across four EU countries.",
+      "Cut layout shift on homepage, cart, PDP, and checkout with reserved layout.",
+      "Moved shared config to GraphQL and shipped subscription commerce flows.",
+      "Added WCAG coverage with keyboard nav and a nightly Lighthouse CI gate.",
+    ],
+  },
   {
     title: "Frontend Engineer",
     company_name: "Neuralhive Technologies Pvt. Ltd.",
@@ -228,6 +242,6 @@ const projects = [
   },
 ];
 
-const overview = "I'm a Frontend Engineer with 2 years of experience building performant, scalable, and user-friendly web applications. A Computer Science graduate from IIIT Delhi, I specialize in React.js, Redux, and modern UI libraries like Bootstrap and Material-UI. From redesigning complex interfaces to optimizing real-time performance, I turn design mockups into responsive, production-ready code. I've worked on SaaS platforms in healthcare and QA automation, collaborating across teams to ship impactful features with clean architecture and efficient APIs.";
+const overview = "I'm a Frontend Engineer with 3 years of experience building performant, scalable, and user-friendly web applications. A Computer Science graduate from IIIT Delhi, I specialize in React.js and Redux, with production work in GraphQL, Core Web Vitals, and accessibility. I've shipped SaaS platforms in healthcare and QA automation, plus a multi-brand EU e-commerce storefront — turning designs into responsive, production-ready UI and treating performance and accessibility as product work.";
 
 export { services, technologies, experiences, testimonials, projects, overview };

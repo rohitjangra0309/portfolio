@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 
 import brane_enterprises_logo from "./company/brane_enterprises_logo.png";
 import neuralhive_logo from "./company/neuralhive_logo.png";
+import neortus_consulting_logo from "./company/neortus_consulting_logo.jpg";
 import linkedin from "./LinkedIn_logo_initials.png";
 
 
@@ -56,6 +57,7 @@ export {
   typescript,
   brane_enterprises_logo,
   neuralhive_logo,
+  neortus_consulting_logo,
   linkedin,
   CloudComputing,
   CMProject,  
